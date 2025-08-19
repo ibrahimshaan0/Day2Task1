@@ -1,0 +1,80 @@
+$features-title-font-family: "Saira Semi Condensed", sans-serif;
+$features-paragraph-color: #74787C;
+
+.py-130 {
+    padding: 130px 0;
+}
+
+.features-area {
+    font-family: $features-title-font-family;
+
+    .section-title,
+    .title {
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+
+    .title {
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #121212;
+        text-transform: uppercase;
+    }
+
+    .title span {
+        position: relative;
+        z-index: 1;
+
+        svg {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    }
+
+    .feature-item-three {
+        padding: 54px 40px;
+        border: 1px solid #eeeeee;
+        transition: 3s liner;
+        margin-left: -1px;
+        margin-top: 0;
+        height: calc(100% - 1px);
+
+        .feature-icon {
+            margin-bottom: 20px;
+
+            .img {
+                min-width: 100%;
+                transition: all .3s ease-out 0s;
+            }
+        }
+
+        .feature-content {
+            .h4 {
+                color: #121212;
+                margin-top: 0;
+                font-style: normal;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            .title {
+                font-size: 22px;
+                margin-bottom: 15px;
+                transition: 3s linear;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.62;
+                color: $features-paragraph-color;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.py-130 {
+  padding: 130px 0;
+}
+
+.features-area {
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+.features-area .section-title,
+.features-area .title {
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+.features-area .title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #121212;
+  text-transform: uppercase;
+}
+.features-area .title span {
+  position: relative;
+  z-index: 1;
+}
+.features-area .title span svg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.features-area .feature-item-three {
+  padding: 54px 40px;
+  border: 1px solid #eeeeee;
+  transition: 3s liner;
+  margin-left: -1px;
+  margin-top: 0;
+  height: calc(100% - 1px);
+}
+.features-area .feature-item-three .feature-icon {
+  margin-bottom: 20px;
+}
+.features-area .feature-item-three .feature-icon .img {
+  min-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+.features-area .feature-item-three .feature-content .h4 {
+  color: #121212;
+  margin-top: 0;
+  font-style: normal;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.features-area .feature-item-three .feature-content .title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  transition: 3s linear;
+}
+.features-area .feature-item-three .feature-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.62;
+  color: #74787C;
+}/*# sourceMappingURL=main.css.map */
